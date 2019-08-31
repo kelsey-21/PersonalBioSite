@@ -5,13 +5,13 @@
  
 const projects = [
     {
-        title: '', 
+        title: 'Cool Project', 
         screenshot: '', 
-        description: '', 
-        technologiesUsed: '',
+        description: 'This is a cool project I made to show CSS, vanilla JS and HTML.', 
+        technologiesUsed: 'CSS, vanilla JS and HTML.',
         available: true,
-        url: '', 
-        githubUrl: ''
+        url: 'https://github.com/kelseycreel/product-cards', 
+        githubUrl: 'https://github.com/kelseycreel/product-cards'
       },
       {
         title: '', 
@@ -80,14 +80,27 @@ const printProjectCards = (projectArr) => {
         if (projectArr[i].available === true) {
             stringtoPrint += `
             <div class="cards">
-            <h3><a href="${projectArr[i].url}">${projectArr[i].title}</a></h3>
+            <h2><a href="${projectArr[i].url}">${projectArr[i].title}</a></h2>
             <img src="${projectArr[i].screenshot}" alt="${projectArr[i].title}" />
-            <h4>${projectArr[i].technologiesUsed}</h4>
+            <h5>${projectArr[i].technologiesUsed}</h5>
             <p>${projectArr[i].description}</p>
-            <footnote><a href="${projectArr[i].githubUrl}">${projectArr[i].githubUrl}</a></footnote>
+            <p><a href="${projectArr[i].githubUrl}">${projectArr[i].githubUrl}</a></p>
             </div>
             `
         } 
         printToDom(stringtoPrint, 'projectsPage')
     }
 }
+
+printProjectCards(projects);     
+
+const navClick = (event) => {
+    const navType = event.target.id;
+    if (navType === 'navToBio') {
+        return 'Bio'
+    } else if (navType === 'navToTechnologies') {
+        return 'Technologies'
+    } else {
+        printProjectCards(projects);        
+    }
+};
