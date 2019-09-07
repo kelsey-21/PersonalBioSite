@@ -11,7 +11,7 @@
 
 body {
     background-color: gainsboro;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* HEADER AND NAV */
@@ -41,8 +41,9 @@ nav {
     background-color: #FFFFFF;
     border: 2px solid #BDBDBD;
     min-width: 15em;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 #BDBDBD, 0 6px 20px 0 #BDBDBD;
 }
-
 
 .cards a:link {
     color: #00796B;
@@ -72,10 +73,52 @@ nav {
     border-radius: 4px;
 }
 
+/* Technologies */
+.bioTech {
+    flex: 0 1 30%;
+    margin: 2em;
+    color: #212121;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border: 2px solid #BDBDBD;
+    box-shadow: 0 4px 8px 0 #BDBDBD, 0 6px 20px 0 #BDBDBD;
+    min-width: 15em;
+    text-shadow: 1px 1px 1px #000000;
+    padding: 4em;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* BIO */
+#printedBio {
+    flex: 0 1 65%;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-top: 2em;
+    color: #212121;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border: 2px solid #BDBDBD;
+    box-shadow: 0 4px 8px 0 #BDBDBD, 0 6px 20px 0 #BDBDBD;
+    min-width: 15em;
+    font-size: 1.75em;
+    padding: 1em;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#printedBio img {
+    border-radius: 50%;
+    max-width: 17em;
+    max-height: auto;
+    margin: 2em;
+}
+
 h1 {
     text-align: center;
     font-weight: bold;
     font-size: 3em;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 p a {
@@ -86,15 +129,3 @@ p {
     font-size: 1em;
 }
 
-/* FOOTER */
-.page-footer {
-    display: flex;
-   /* background-color: #212121;
-   opacity: 0.2; */
-   justify-content: flex-start;
-}
-
-.page-footer p {
-    color: #212121;
-    opacity: 1;
-}
