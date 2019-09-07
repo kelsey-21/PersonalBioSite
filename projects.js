@@ -87,6 +87,15 @@ const technologiesUsed = [
     },
     {
         technology: 'JAVASCRIPT'
+    },
+    {
+        technology: 'HTML'
+    },
+    {
+        technology: 'CSS'
+    },
+    {
+        technology: 'JAVASCRIPT'
     }
 ]
 
@@ -120,21 +129,29 @@ const printBio = (bioArr) => {
     let stringtoPrint = '';
     for (let i = 0; i < bioArr.length; i++) {
             stringtoPrint += `
-            <div id="printedBio" class="bioDiv">
-            <img src="${bioArr[i].imageLink}" alt="${bioArr[i].title}" />
-            <h2>${bioArr[i].title}</h2>
-            ${bioArr[i].bioContent}
+            <div class="card mb-3 justify-content-center">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="${bioArr[i].imageLink}" class="card-img" alt="${bioArr[i].title}">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h2 class="card-title">${bioArr[i].title}</h2>
+                  <p class="card-text">${bioArr[i].bioContent}</p>
+                </div>
+              </div>
             </div>
+          </div>
             `
         } 
         printToDom(stringtoPrint, 'bioPage')
     }
 
 const printTech = (techArr) => {
-    let stringtoPrint = '<div class="row">';
+    let stringtoPrint = '<div class="row justify-content-center">';
     for (let i = 0; i < techArr.length; i++) {
             stringtoPrint += `
-            <div class="bioTech" class="col-3">
+            <div class="bioTech" class="col">
                 <h1>${techArr[i].technology}</h1>
             </div>
             `
