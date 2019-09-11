@@ -15,7 +15,7 @@ const projectsArray = [
       },
       {
         title: 'Pet Adoption', 
-        screenshot: '', 
+        screenshot: 'images/pet-adoption.png', 
         description: 'This project prints cards onto the DOM using JS.', 
         technologiesUsed: 'CSS, vanilla JS and HTML.',
         available: true,
@@ -123,9 +123,7 @@ const printProjectCards = (projectArr) => {
         } 
         printToDom(stringtoPrint, 'projectsPage')
     }
-}
-
-printProjectCards(projectsArray);     
+};    
 
 const printBio = (bioArr) => {
     let stringtoPrint = '';
@@ -166,6 +164,8 @@ const navClick = (event) => {
     // const petCards = document.getElementById('petCards')
     // if (petCards.innerHTML === '') {    
     const navType = event.target.id;
+    console.log(event.target.id)
+    console.log(event.currentTarget.id)
     if (navType === 'bio') {
         console.log(document.getElementById('bioPage').innerHTML);
         printBio(bioArray);
@@ -182,6 +182,14 @@ const navClick = (event) => {
     }
 };
 
-document.getElementById('bio').addEventListener('click', navClick);
-document.getElementById('technologies').addEventListener('click', navClick);
-document.getElementById('projects').addEventListener('click', navClick);
+document.getElementById('clickEvent').addEventListener('click', navClick, true);
+
+// document.getElementById('bio').addEventListener('click', navClick);
+// document.getElementById('technologies').addEventListener('click', navClick);
+// document.getElementById('projects').addEventListener('click', navClick);
+
+const init = () => {
+  printProjectCards(projectsArray); 
+};
+
+init();
