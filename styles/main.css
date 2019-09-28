@@ -119,14 +119,22 @@ p {
     font-size: 1em;
 }
 
-#footer-div {
-  height: 100%;
-}
-
-#page-content {
-  flex: 1 0 auto;
-}
-
 #sticky-footer {
-  flex-shrink: none;
+  height: 8%;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 1;
+  margin: 0;
+  font-size: 1.2em;
+}
+
+#footer-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+
+#sticky-footer a {
+    color: white;
 }
