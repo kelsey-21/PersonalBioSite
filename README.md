@@ -4,9 +4,9 @@
 This website showcases both personal and group projects during my time at Nashville Software School. Github links to each project are available.
 
 # Screenshots
-![]()
-![]()
-![]()
+![Projects](https://raw.githubusercontent.com/kelseycreel/PersonalBioSite/master/screenshots/personal-bio-site.PNG)
+![Technologies](https://raw.githubusercontent.com/kelseycreel/PersonalBioSite/master/screenshots/personal-bio-site2.PNG)
+![About Me](https://raw.githubusercontent.com/kelseycreel/PersonalBioSite/master/screenshots/personal-bio-site3.PNG)
 
 # How to run
 * Clone down this project
