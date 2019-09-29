@@ -1,6 +1,6 @@
 import utilities from '../helpers/utilities.js'
 
-const indivProjects = [
+const projects = [
     {
         title: 'Product Cards', 
         screenshot: 'images/product-cards.PNG', 
@@ -94,6 +94,7 @@ const groupProjects = [
       url: '', 
       githubUrl: ''
     },
+  ];
 
 const printProjectCards = () => {
     let stringtoPrint = '';
