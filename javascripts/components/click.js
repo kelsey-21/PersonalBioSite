@@ -23,4 +23,8 @@ const runNavClick = () => {
     document.getElementById('clickEvent').addEventListener('click', navClick, true)
 }
 
+// document.getElementById('bio').addEventListener('click', navClick);
+// document.getElementById('technologies').addEventListener('click', navClick);
+// document.getElementById('projects').addEventListener('click', navClick);
+
 export default { runNavClick }
