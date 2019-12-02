@@ -12,13 +12,31 @@ const technologiesUsed = [
     technology: 'JAVASCRIPT',
   },
   {
-    technology: 'TBD',
+    technology: 'JQUERY',
   },
   {
-    technology: 'TBD',
+    technology: 'Bootstrap',
   },
   {
-    technology: 'TBD',
+    technology: 'GIT',
+  },
+  {
+    technology: 'SASS',
+  },
+  {
+    technology: 'Modular Programming',
+  },
+  {
+    technology: 'Asynchronous Programming',
+  },
+  {
+    technology: 'Simple Auth',
+  },
+  {
+    technology: 'Axios',
+  },
+  {
+    technology: 'React',
   },
 ];
 
