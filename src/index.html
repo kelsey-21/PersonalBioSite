@@ -12,19 +12,17 @@
     <script src="https://kit.fontawesome.com/e7255ed307.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <nav id="clickEvent" class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Kelsey Creel</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" id="projects" href="#">Projects<span class="sr-only"></span></a>
-        <a class="nav-item nav-link" id="technologies" href="#">Technologies</a>
-        <a class="nav-item nav-link" id="bio" href="#">Bio</a>
-      </div>
+<div id="main-header">
+  <img class="img-header" src="https://images.unsplash.com/photo-1475082211816-b48baf3f69e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" />
+  <h1 class="main-title d-flex flex-row">Kelsey Creel</h1>
+  <div class="nav-section d-flex flex-row justify-content-center">
+      <a class="nav-item nav-link active" id="home" href="#">Home<span class="sr-only"></span></a>
+      <a class="nav-item nav-link" id="projects" href="#">Projects<span class="sr-only"></span></a>
+      <a class="nav-item nav-link" id="technologies" href="#">Technologies</a>
+      <a class="nav-item nav-link" id="bio" href="#">About</a>
+      <a class="nav-item nav-link" id="bio" href="#">Contact</a>
     </div>
-  </nav>
+</div>
     <div class="fullPage container" id="bioPage"></div>
     <div class="fullPage container" id="technologiesPage"></div>
     <div class="fullPage" id="projectsPage"></div>
@@ -37,7 +35,7 @@
           </div>
         </div>
       </div>
-      <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+      <footer id="sticky-footer" class="position-sticky fixed-bottom py-4 bg-dark text-white-50">
         <div class="container">
           <div id="footer-items" class="row d-flex justify-content-around">
             <div class="col">

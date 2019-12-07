@@ -1,4 +1,4 @@
-import $ from 'jquery';
+// import $ from 'jquery';
 import tech from '../tech/tech';
 import project from '../projects/projects';
 import bio from '../bio/bio';
@@ -7,16 +7,10 @@ const navClick = (event) => {
   const navType = event.target.id;
   if (navType === 'bio') {
     bio.printBio();
-    $('#technologiesPage').empty();
-    $('#projectsPage').empty();
   } else if (navType === 'technologies') {
     tech.printTech();
-    $('#bioPage').empty();
-    $('#projectsPage').empty();
   } else {
     project.printProjectCards();
-    $('#technologiesPage').empty();
-    $('#bioPage').empty();
   }
 };
 

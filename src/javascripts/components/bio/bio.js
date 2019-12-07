@@ -5,7 +5,7 @@ const bioArray = [
   {
     imageLink: './images/DSC_1132.jpg',
     title: 'Kelsey Creel',
-    bioContent: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nunc scelerisque viverra mauris in aliquam. Maecenas sed enim ut sem. Est sit amet facilisis magna etiam tempor orci eu. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Placerat vestibulum lectus mauris ultrices. Congue eu consequat ac felis donec et odio pellentesque. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat. Euismod elementum nisi quis eleifend quam adipiscing vitae proin. Eu turpis egestas pretium aenean. Augue lacus viverra vitae congue. Volutpat blandit aliquam etiam erat velit scelerisque. Tortor aliquam nulla facilisi cras. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Ultrices vitae auctor eu augue ut lectus arcu bibendum.</p><p>Elit sed vulputate mi sit. Euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Duis tristique sollicitudin nibh sit amet. At erat pellentesque adipiscing commodo elit. Eleifend quam adipiscing vitae proin sagittis. Feugiat nisl pretium fusce id velit. A iaculis at erat pellentesque. Tellus id interdum velit laoreet id donec. Diam volutpat commodo sed egestas. Consectetur a erat nam at lectus urna.</p>',
+    bioContent: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nunc scelerisque viverra mauris in aliquam.</p>',
   },
 ];
 

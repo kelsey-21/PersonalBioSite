@@ -72,15 +72,14 @@ const projects = [
 ];
 
 const printProjectCards = () => {
-  let stringtoPrint = '';
+  let stringtoPrint = '<div class="project-cards d-flex flex-row bd-highlight mb-3 justify-content-center">';
   projects.forEach((project) => {
     if (project.available) {
-      stringtoPrint += '<div class="cards>';
       stringtoPrint += singleProject.singleProjectCard(project);
-      stringtoPrint += '</div>';
     }
-    utilities.printToDom(stringtoPrint, 'projectsPage');
   });
+  stringtoPrint += '</div>';
+  utilities.printToDom(stringtoPrint, 'projectsPage');
 };
 
 export default { printProjectCards };
