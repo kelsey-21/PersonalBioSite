@@ -1,11 +1,28 @@
-
+@import '../../../styles/colors';
 /* Technologies */
 .bioTech {
+  margin: auto;
   img {
-    max-width: 10%;
+    max-width: 25px;
     max-height: auto;
-    margin: 0 2%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
   }
+  .single-technology {
+    margin: 2% 0;
+  }
+  .technology-text {
+    font-size: 0.5em;
+    margin: 0.2%;
+    text-align: center;
+    color: $teal;
+  }
+}
+.bioTech-title-background {
+  color: white;
+  background-color: $teal;
+  line-height: 3rem;
+
 }
 #technologiesPage {
   margin: 2% auto;
