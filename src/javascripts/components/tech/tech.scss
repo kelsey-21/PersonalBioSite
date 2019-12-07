@@ -1,18 +1,12 @@
 
 /* Technologies */
 .bioTech {
-  flex: 0 1 20%;
-  margin-left: 1em;
-  margin-right: 1em;
-  margin-top: 1.5em;
-  color: #212121;
-  text-align: center;
-  border-radius: 4px;
-  background-color: #FFFFFF;
-  border: 2px solid #BDBDBD;
-  box-shadow: 0 4px 8px 0 #BDBDBD, 0 6px 20px 0 #BDBDBD;
-  text-shadow: 0.4px 0.4px 0.4px #000000;
-  padding: 3em;
-  font-size: 0.8em;
-  font-family: 'Open Sans Condensed', sans-serif;
+  img {
+    max-width: 10%;
+    max-height: auto;
+    margin: 0 2%;
+  }
+}
+#technologiesPage {
+  margin: 2% auto;
 }
