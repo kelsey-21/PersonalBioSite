@@ -33,9 +33,13 @@ const technologiesUsed = [
 ];
 
 const printTech = () => {
-  let stringtoPrint = '<div class="bioTech d-flex flex-row flex-wrap justify-content-center align-content-center">';
+  let stringtoPrint = '<div class="bioTech-title-background"><h3 class="bioTech-title">Technologies</h3></div>';
+  stringtoPrint += '<div class="bioTech d-flex flex-row flex-wrap justify-content-center align-content-center">';
   for (let i = 0; i < technologiesUsed.length; i += 1) {
-    stringtoPrint += `<img src="${technologiesUsed[i].iconLink}" title="${technologiesUsed[i].technology}"/>`;
+    stringtoPrint += '<div class="single-technology d-flex flex-column justify-content-center align-items-center col-3">';
+    stringtoPrint += `<img src="${technologiesUsed[i].iconLink}" alt="${technologiesUsed[i].technology}"/>`;
+    stringtoPrint += `<p class="technology-text">${technologiesUsed[i].technology}</p>`;
+    stringtoPrint += '</div>';
   }
   stringtoPrint += '</div>';
   utilities.printToDom(stringtoPrint, 'technologiesPage');
