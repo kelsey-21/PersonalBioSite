@@ -8,7 +8,7 @@ const technologiesUsed = [
   },
   {
     technology: 'CSS',
-    iconLink: 'https://www.pinclipart.com/picdir/middle/175-1759459_eng-a-med-kamel-frameworks-css-css-logo.png',
+    iconLink: 'https://p7.hiclipart.com/preview/509/571/818/cascading-style-sheets-logo-css3-html-web-development-world-wide-web-thumbnail.jpg',
   },
   {
     technology: 'JAVASCRIPT',
@@ -42,7 +42,7 @@ const printTech = () => {
     stringtoPrint += '</div>';
   }
   stringtoPrint += '</div>';
-  utilities.printToDom(stringtoPrint, 'technologiesPage');
+  utilities.printToDom('technologiesPage', stringtoPrint);
 };
 
 export default { printTech };

@@ -79,7 +79,7 @@ const printProjectCards = () => {
     }
   });
   stringtoPrint += '</div>';
-  utilities.printToDom(stringtoPrint, 'projectsPage');
+  utilities.printToDom('projectsPage', stringtoPrint);
 };
 
 export default { printProjectCards };
