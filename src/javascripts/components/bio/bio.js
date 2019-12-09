@@ -30,7 +30,7 @@ const printBio = () => {
             </div>
           </div>`;
   }
-  utilities.printToDom(stringtoPrint, 'bioPage');
+  utilities.printToDom('bioPage', stringtoPrint);
 };
 
 export default { printBio };

@@ -42,7 +42,7 @@ const printTech = () => {
     stringtoPrint += '</div>';
   }
   stringtoPrint += '</div>';
-  utilities.printToDom(stringtoPrint, 'technologiesPage');
+  utilities.printToDom('technologiesPage', stringtoPrint);
 };
 
 export default { printTech };

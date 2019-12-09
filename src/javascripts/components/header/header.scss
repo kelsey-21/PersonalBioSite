@@ -6,30 +6,104 @@
   padding: 0;
   background-color: $teal;
   background: linear-gradient($teal, $lightteal);
-.main-title {
-  text-transform: uppercase;
-  z-index: 1;
-  position: absolute;
-  bottom: 75px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 4rem;
-  font-weight: bold;
-  color: white; // blue?
-  margin: 1%;
-}
-.nav-section {
-  text-transform: uppercase;
-  z-index: 1;
-  position: absolute;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 0.9rem;
-  color: white; // blue?
-  a {
-    color: white;
-    text-decoration: none;
+  overflow: hidden;
+  .nav-section {
+    text-transform: uppercase;
+    a {
+      color: white;
+      text-decoration: none;
+    }
   }
 }
+#header-div {
+  overflow: hidden;
+}
+
+.h1-kelsey {
+text-transform: uppercase;
+z-index: 1;
+position: absolute;
+bottom: 75px;
+left: 50%;
+transform: translateX(-50%);
+font-size: 4rem;
+font-weight: bold;
+color: white; // blue?
+margin: 1%;
+}
+
+.img-plus-1, .img-plus-2 {
+  width: 6%;
+  height: auto;
+  position: absolute;
+  opacity: 0.4;
+}
+
+.img-plus-2 {
+  bottom: 30%;
+  left: 25%;
+}
+.img-plus-1 {
+  top: 15%;
+  left: 80%;
+}
+
+.img-arrows-1 {
+  width: 10%;
+  height: auto;
+  position: absolute;
+}
+
+.img-arrows-2 {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  transform: rotate(-90deg);
+  bottom: 12%;
+  right: 10%;
+}
+
+.img-kelsey {
+  width: 30%;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-circle {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: -10%;
+  top: 15%;
+  opacity: 0.4;
+}
+
+.img-linecirc {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  left: 70%;
+  transform: rotate(45deg);
+  opacity: 0.4;
+}
+
+.img-line-horizontal, .img-line-vertical {
+  width: auto;
+  height: 100%;
+  position: absolute;
+  opacity: 0.4;
+}
+
+.img-line-horizontal {
+  transform: rotate(90deg);
+  left: 30%;
+}
+
+.img-line-vertical {
+  left: 40%;
+  top: -7%;
+  z-index: 1;
 }
