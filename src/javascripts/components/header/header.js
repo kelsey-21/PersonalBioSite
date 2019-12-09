@@ -19,7 +19,7 @@ const printHeader = () => {
   domString += `<img class="img-line-vertical" src="${line}" alt="line" />`;
   domString += `<img class="img-kelsey" src="${kelsey}" alt="kelsey" />`;
   domString += '<div class="name d-flex flex-row justify-content-between"><h1 class="h1-kelsey">Kelsey</h1>';
-  domString += '<h1 class="h1-kelsey">Creel</h1></div></div>';
+  domString += '<h1 class="h1-creel">Creel</h1></div></div>';
   console.log(domString);
   utilities.printToDom('main-header-area', domString);
 };

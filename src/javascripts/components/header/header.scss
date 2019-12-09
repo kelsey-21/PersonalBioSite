@@ -23,14 +23,27 @@
 text-transform: uppercase;
 z-index: 1;
 position: absolute;
-bottom: 75px;
-left: 50%;
+bottom: 50%;
+left: 25%;
 transform: translateX(-50%);
 font-size: 4rem;
 font-weight: bold;
 color: white; // blue?
 margin: 1%;
 }
+
+.h1-creel {
+  text-transform: uppercase;
+  z-index: 1;
+  position: absolute;
+  bottom: 50%;
+  left: 70%;
+  transform: translateX(-50%);
+  font-size: 4rem;
+  font-weight: bold;
+  color: white; // blue?
+  margin: 1%;
+  }
 
 .img-plus-1, .img-plus-2 {
   width: 6%;
@@ -64,8 +77,9 @@ margin: 1%;
 }
 
 .img-kelsey {
-  width: 30%;
+  width: 25%;
   height: auto;
+  max-height: 325px;
   position: absolute;
   left: 50%;
   top: 50%;
