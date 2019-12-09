@@ -18,9 +18,6 @@ const printBio = () => {
     stringtoPrint += `
             <div class="card mb-3 justify-content-center">
             <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="${bioArray[i].imageLink}" class="card-img" alt="${bioArray[i].title}">
-              </div>
               <div class="col-md-8">
                 <div class="card-body">
                   <h2 class="card-title">${bioArray[i].title}</h2>
