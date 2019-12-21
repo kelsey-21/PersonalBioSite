@@ -5,7 +5,8 @@ import './projects.scss';
 
 
 const printProjectCards = () => {
-  let stringtoPrint = '<div class="project-cards d-flex flex-row flex-wrap bd-highlight justify-content-center">';
+  let stringtoPrint = '<div class="project-title-background"><h3 class="project-title">Projects<span class="yellow">.</span></h3></div>';
+  stringtoPrint += '<div class="project-cards d-flex flex-row flex-wrap bd-highlight justify-content-center">';
   projectsData.getProjects()
     .then((projects) => {
       projects.forEach((project) => {

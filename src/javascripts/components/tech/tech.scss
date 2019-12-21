@@ -6,7 +6,7 @@
     max-width: 25px;
     max-height: auto;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    filter: grayscale(50%);
   }
   .single-technology {
     margin: 2% 0;
@@ -15,13 +15,20 @@
     font-size: 0.5em;
     margin: 0.2%;
     text-align: center;
-    color: $purple;
+    color: black;
   }
 }
 .bioTech-title-background {
-  color: white;
+  color: $orange;
   line-height: 3rem;
+  padding: 0 0 2% 0;
+  .bioTech-title {
+    font-weight: bold;
+    padding: 0 10% 0 0;
+  }
 }
+
 #technologiesPage {
-  margin: 2% auto;
+  background-color: $beige;
+  padding: 2% 10%;
 }

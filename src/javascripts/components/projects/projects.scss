@@ -1,7 +1,29 @@
+@import "../../../styles/colors";
+
 body {
-  background-color: white;
+  background-color: $white;
 }
 
 .single-project {
-	margin: 4%;
+  margin: 4%;
+  p {
+    font-size: 0.6em;
+  }
+  .card-title {
+    color: $green;
+    font-weight: bold;
+  }
+  .card-body {
+    margin: 2%;
+  }
+}
+
+.project-title-background {
+  color: $green;
+  line-height: 5rem;
+  padding: 0 0 2% 0;
+  .project-title {
+    font-weight: bold;
+    padding: 0 10% 0 0;
+  }
 }

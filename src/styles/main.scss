@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
+@import "../styles/colors";
 
 body {
     background-color: white;
@@ -14,10 +15,20 @@ body {
 
 footer {
     i {
-    color: white;
+    color: $white;
     }
 }
 
 .hide {
   display: none;
+}
+
+#technologiesPage, #bioPage, #projectsPage {
+    margin: 2% auto;
+    max-width: 100vw;
+    padding: 2% 10%;
+  }
+
+.yellow {
+  color: $yellow;
 }
