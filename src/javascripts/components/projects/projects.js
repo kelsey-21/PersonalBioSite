@@ -20,7 +20,7 @@ const projects = [
     screenshot: 'images/pet-adoption.png',
     description: 'This project prints cards onto the DOM using JS.',
     technologiesUsed: 'CSS, vanilla JS and HTML.',
-    available: true,
+    available: false,
     url: 'https://github.com/kelseycreel/pet-adoption',
     githubUrl: 'https://github.com/kelseycreel/pet-adoption',
   },
@@ -72,7 +72,7 @@ const projects = [
 ];
 
 const printProjectCards = () => {
-  let stringtoPrint = '<div class="project-cards d-flex flex-row bd-highlight mb-3 justify-content-center">';
+  let stringtoPrint = '<div class="project-cards d-flex flex-row flex-wrap bd-highlight justify-content-center">';
   projects.forEach((project) => {
     if (project.available) {
       stringtoPrint += singleProject.singleProjectCard(project);
