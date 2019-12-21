@@ -2,10 +2,10 @@ const singleProjectCard = (project) => {
   const domString = `
   <div class="card single-project border-0">
   <div class="row no-gutters">
-    <div class="col-md-8">
+    <div class="col-md-7">
       <img src="${project.img1}" class="card-img" alt="...">
     </div>
-    <div class="col-md-4">
+    <div class="col-md-5">
       <div class="card-body">
         <h5 class="card-title">${project.title}</h5>
         <p class="card-text">${project.description}</p>
