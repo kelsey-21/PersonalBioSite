@@ -16,15 +16,6 @@ const projects = [
     githubUrl: 'https://github.com/kelseycreel/product-cards',
   },
   {
-    title: 'Pet Adoption',
-    screenshot: 'images/pet-adoption.png',
-    description: 'This project prints cards onto the DOM using JS.',
-    technologiesUsed: 'CSS, vanilla JS and HTML.',
-    available: false,
-    url: 'https://github.com/kelseycreel/pet-adoption',
-    githubUrl: 'https://github.com/kelseycreel/pet-adoption',
-  },
-  {
     title: 'Pinterest',
     img1: 'images/Pinterest1.JPG',
     img2: 'images/Pinterest2.JPG',
@@ -57,15 +48,6 @@ const projects = [
   },
   {
     title: 'Capstone',
-    screenshot: '',
-    description: '',
-    technologiesUsed: '',
-    available: false,
-    url: '',
-    githubUrl: '',
-  },
-  {
-    title: '',
     screenshot: '',
     description: '',
     technologiesUsed: '',
