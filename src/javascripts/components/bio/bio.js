@@ -20,7 +20,7 @@ const printBio = () => {
       <div class="card mb-3 justify-content-center border-0">
       <div class="row no-gutters">
         <div class="col-md-4">
-        <img src="images/DSC_1132.jpg" class="card-img bio-img"/>
+        <img src="https://raw.githubusercontent.com/kelseycreel/PersonalBioSite/master/images/DSC_1132.jpg" class="card-img bio-img"/>
         </div>
         <div class="col-md-8">
           <div class="card-body">

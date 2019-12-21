@@ -1,0 +1,30 @@
+
+{
+  "project2": {
+    "title": "Pinterest",
+    "img1": "https://raw.githubusercontent.com/kelseycreel/PersonalBioSite/master/images/Pinterest3.JPG",
+    "description": "Pinterest is an individual project with full CRUD (create, read, update and delete) using firebase API and vanilla javascript. The user is able to organize their interests on organized \"boards\". Each board has pins which displays a picture of the item. The user is able to re-organize any pin or board if a mistake is made or an update is needed.",
+    "technologiesUsed": "Firebase, vanilla JS, SCSS, Jquery",
+    "available": true,
+    "url": "https://pinterest-6f913.firebaseapp.com/",
+    "githubUrl": "https://github.com/kelseycreel/pinterest"
+  },
+  "project3": {
+    "title": "Jurassic World",
+    "img1": "https://raw.githubusercontent.com/kelseycreel/PersonalBioSite/master/images/Jurassic-World1.JPG",
+    "description": "Jurrassic World is a group project with full CRUD (create, read, update and delete) using firebase API and vanilla javascript. Each team member completed CRUD on a collection. Upon login, the user is able to interact with items in the Jurassic World Theme Park items - dinosaurs, vendors, rides, and staff. There is also a cron job that sets off a chaos monkey.",
+    "technologiesUsed": "Firebase, vanilla JS, SCSS, Jquery, Cron",
+    "available": true,
+    "url": "https://github.com/nss-evening-cohort-10/nutshell-jurassic-world/tree/lc-settingMonkeyTime",
+    "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-jurassic-world/tree/04a1de1bd3dcade715b27b2be8c2d01e3b75d115"
+  },
+  "project4": {
+    "title": "Sports Roster",
+    "img1": "",
+    "description": "",
+    "technologiesUsed": "React, Firebase, SCSS",
+    "available": false,
+    "url": "",
+    "githubUrl": ""
+  }
+}
