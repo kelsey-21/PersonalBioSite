@@ -44,7 +44,7 @@ const projects = [
     technologiesUsed: 'Firebase, vanilla JS, SCSS, Jquery, Cron',
     available: true,
     url: 'https://github.com/nss-evening-cohort-10/nutshell-jurassic-world/tree/lc-settingMonkeyTime',
-    githubUrl: 'https://github.com/nss-evening-cohort-10/nutshell-jurassic-world/tree/lc-settingMonkeyTime',
+    githubUrl: 'https://github.com/nss-evening-cohort-10/nutshell-jurassic-world/tree/04a1de1bd3dcade715b27b2be8c2d01e3b75d115',
   },
   {
     title: 'Sports Roster',

@@ -5,27 +5,32 @@ const bioArray = [
   {
     imageLink: './images/DSC_1132.jpg',
     title: 'Kelsey Creel',
-    bioContent: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nunc scelerisque viverra mauris in aliquam.</p>',
+    // eslint-disable-next-line max-len
+    bioContent1: 'Before becoming a software developer, I was working in project management for a small healthcare technology company in Nashville. My curiosity for software development was sparked by conversations with coworkers and grew as more technical based projects came my way. During my time as a project manager, I often strategized best practices and processes with my team. I was also responsible for training new employees on these practices and processes.',
+    // eslint-disable-next-line max-len
+    bioContent2: 'As I became a bigger part of understanding the technology and how it could and should be used, I wanted be on the creation side. My time at Nashville Software School has taught me to look at the problems technology raises differently. Project management follows a predictable pattern, but development is innovative and challenging. Finding the solution to the challenge in front of me is extremely fulfilling and I look forward to even more in the future.',
+    bioContent3: '',
   },
 ];
-
-// TODO: Work on this yo
-// My love for technology began at a young age. I was always the person my family asked to help setup any new piece of technology, whether it was a new laptop or television system. Over the years, things have drastically changed! While studying at  Vanderbilt, I dabbled in the technology realm, but really felt like I missed out on the full scope of technology classes and majors. With my newly hired post-grad position at a healthcare technology company here in Nashville, I really began to explore a deeper understanding of what it was to work at small tech company. And I truly loved it. But I wanted more, and I wanted to know more.<p> I started to sit with members of our technology team and ask probably what were annoyingly basic questions. But I started learning, and kept learning. I discovered Nashville Software School from a couple coworkers and the rest was, as they say, history.
 
 const printBio = () => {
   let stringtoPrint = '';
   for (let i = 0; i < bioArray.length; i += 1) {
     stringtoPrint += `
-            <div class="card mb-3 justify-content-center">
-            <div class="row no-gutters">
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h2 class="card-title">${bioArray[i].title}</h2>
-                  <p class="card-text">${bioArray[i].bioContent}</p>
-                </div>
-              </div>
-            </div>
-          </div>`;
+      <div class="card mb-3 justify-content-center border-0">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+        <img src="images/DSC_1132.jpg" class="card-img bio-img"/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h2 class="card-title">${bioArray[i].title}</h2>
+            <p class="card-text">${bioArray[i].bioContent1}</p>
+            <p class="card-text">${bioArray[i].bioContent2}</p>
+          </div>
+        </div>
+      </div>
+    </div>`;
   }
   utilities.printToDom('bioPage', stringtoPrint);
 };
