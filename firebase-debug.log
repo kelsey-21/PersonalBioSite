@@ -1,0 +1,23 @@
+[debug] [2019-12-21T17:51:59.023Z] ----------------------------------------------------------------------
+[debug] [2019-12-21T17:51:59.028Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kelse\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-12-21T17:51:59.029Z] CLI Version:   7.7.0
+[debug] [2019-12-21T17:51:59.029Z] Platform:      win32
+[debug] [2019-12-21T17:51:59.030Z] Node Version:  v10.16.2
+[debug] [2019-12-21T17:51:59.033Z] Time:          Sat Dec 21 2019 11:51:59 GMT-0600 (Central Standard Time)
+[debug] [2019-12-21T17:51:59.033Z] ----------------------------------------------------------------------
+[debug] [2019-12-21T17:51:59.033Z] 
+[debug] [2019-12-21T17:51:59.055Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-21T17:51:59.056Z] > authorizing via signed-in user
+[debug] [2019-12-21T17:51:59.056Z] [iam] checking project personal-bio-site-fff75 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-12-21T17:51:59.060Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/personal-bio-site-fff75:testIamPermissions  
+
+[debug] [2019-12-21T17:51:59.424Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-21T17:51:59.430Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/personal-bio-site-fff75  
+ 
+[debug] [2019-12-21T17:51:59.872Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'personal-bio-site-fff75'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-12-21T17:51:59.915Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/personal-bio-site-fff75/versions  
+
