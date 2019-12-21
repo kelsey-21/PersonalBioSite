@@ -56,7 +56,7 @@ const projects = [
     githubUrl: '',
   },
   {
-    title: '',
+    title: 'Capstone',
     screenshot: '',
     description: '',
     technologiesUsed: '',
