@@ -4,13 +4,19 @@ body {
   background-color: $white;
 }
 
+#projectsPage {
+  background-color: $lightgreen;
+}
+
 .single-project {
-  margin: 4%;
+  margin: 2%;
+  padding: 2%;
+  background-color: $lightergreen !important;
   p {
     font-size: 0.6em;
   }
   .card-title {
-    color: $green;
+    color: $orange;
     font-weight: bold;
   }
   .card-body {
@@ -19,9 +25,9 @@ body {
 }
 
 .project-title-background {
-  color: $green;
-  line-height: 5rem;
-  padding: 0 0 2% 0;
+  color: $orange;
+  line-height: 6rem;
+  padding: 0;
   .project-title {
     font-weight: bold;
     padding: 0 10% 0 0;
