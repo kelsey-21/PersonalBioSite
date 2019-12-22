@@ -8,11 +8,11 @@ const technologiesUsed = [
   },
   {
     technology: 'CSS',
-    iconLink: 'https://p7.hiclipart.com/preview/509/571/818/cascading-style-sheets-logo-css3-html-web-development-world-wide-web-thumbnail.jpg',
+    iconLink: 'https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png',
   },
   {
     technology: 'JAVASCRIPT',
-    iconLink: 'https://mpng.pngfly.com/20181209/yvf/kisspng-javascript-angularjs-node-js-computer-icons-clip-a-clipart-js-5c0d82819a4963.228658921544389249632.jpg',
+    iconLink: 'https://jermerf.com/images/js.png',
   },
   {
     technology: 'GIT',
@@ -27,13 +27,17 @@ const technologiesUsed = [
     iconLink: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png',
   },
   {
+    technology: 'Firebase',
+    iconLink: 'https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png',
+  },
+  {
     technology: 'React',
     iconLink: 'https://cdn.worldvectorlogo.com/logos/react.svg',
   },
 ];
 
 const printTech = () => {
-  let stringtoPrint = '<div class="bioTech-title-background"><h3 class="bioTech-title">Technologies</h3></div>';
+  let stringtoPrint = '<div class="bioTech-title-background"><h3 class="bioTech-title">Technologies<span class="yellow">.</span></h3></div>';
   stringtoPrint += '<div class="bioTech d-flex flex-row flex-wrap justify-content-center align-content-center">';
   for (let i = 0; i < technologiesUsed.length; i += 1) {
     stringtoPrint += '<div class="single-technology d-flex flex-column justify-content-center align-items-center col-3">';
