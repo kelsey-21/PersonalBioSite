@@ -3,7 +3,8 @@ const singleProjectCard = (project) => {
   <div class="card single-project border-0">
   <div class="row no-gutters">
     <div class="col-md-7">
-      <img src="${project.img1}" class="card-img" alt="...">
+      <iframe src="${project.video}" frameborder="0" allowfullscreen scrolling="no"></iframe>
+      </iframe>
     </div>
     <div class="col-md-5">
       <div class="card-body">

@@ -24,6 +24,12 @@ body {
   }
 }
 
+iframe {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+}
+
 .project-title-background {
   color: $orange;
   line-height: 6rem;
