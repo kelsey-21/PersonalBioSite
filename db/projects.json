@@ -21,6 +21,7 @@
   "project4": {
     "title": "Sports Roster",
     "img1": "",
+    "video": "",
     "description": "",
     "technologiesUsed": "React, Firebase, SCSS",
     "available": false,
