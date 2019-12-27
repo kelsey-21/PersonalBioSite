@@ -20,11 +20,11 @@
   },
   "project4": {
     "title": "Sports Roster",
-    "img1": "",
-    "description": "",
+    "img1": "https://raw.githubusercontent.com/kelseycreel/sports-roster/master/screenshots/sports-roster1.JPG",
+    "description": "Sports roster is a react application that allows the user, upon login, to read, add, update, and delete the players on the Vanderbilt baseball team.",
     "technologiesUsed": "React, Firebase, SCSS",
-    "available": false,
-    "url": "",
-    "githubUrl": ""
+    "available": true,
+    "url": "https://sports-roster-e03bf.firebaseapp.com/",
+    "githubUrl": "https://github.com/kelseycreel/sports-roster"
   }
 }
