@@ -2,7 +2,7 @@
 {
   "project2": {
     "title": "Pinterest",
-    "img1": "https://raw.githubusercontent.com/kelseycreel/PersonalBioSite/master/images/Pinterest3.JPG",
+    "img1": "https://raw.githubusercontent.com/kelseycreel/PersonalBioSite/master/images/pinterest.png",
     "description": "Pinterest is an individual project with full CRUD (create, read, update and delete) using firebase API and vanilla javascript. The user is able to organize their interests on organized \"boards\". Each board has pins which displays a picture of the item. The user is able to re-organize any pin or board if a mistake is made or an update is needed.",
     "technologiesUsed": "Firebase, vanilla JS, SCSS, Jquery",
     "available": true,
@@ -11,7 +11,7 @@
   },
   "project3": {
     "title": "Jurassic World",
-    "img1": "https://raw.githubusercontent.com/kelseycreel/PersonalBioSite/master/images/Jurassic-World1.JPG",
+    "img1": "https://raw.githubusercontent.com/kelseycreel/PersonalBioSite/master/images/jurassic-park.png",
     "description": "Jurrassic World is a group project with full CRUD (create, read, update and delete) using firebase API and vanilla javascript. Each team member completed CRUD on a collection. Upon login, the user is able to interact with items in the Jurassic World Theme Park items - dinosaurs, vendors, rides, and staff. There is also a cron job that sets off a chaos monkey.",
     "technologiesUsed": "Firebase, vanilla JS, SCSS, Jquery, Cron",
     "available": true,
@@ -20,7 +20,7 @@
   },
   "project4": {
     "title": "Sports Roster",
-    "img1": "https://raw.githubusercontent.com/kelseycreel/sports-roster/master/screenshots/sports-roster1.JPG",
+    "img1": "https://raw.githubusercontent.com/kelseycreel/PersonalBioSite/master/images/sports-roster.png",
     "description": "Sports roster is a react application that allows the user, upon login, to read, add, update, and delete the players on the Vanderbilt baseball team.",
     "technologiesUsed": "React, Firebase, SCSS",
     "available": true,
