@@ -26,5 +26,14 @@
     "available": true,
     "url": "https://sports-roster-e03bf.firebaseapp.com/",
     "githubUrl": "https://github.com/kelseycreel/sports-roster"
+  },
+  "project5": {
+    "title": "Le Baguette",
+    "img1": "https://raw.githubusercontent.com/kelseycreel/PersonalBioSite/master/images/le-baguette3.png",
+    "description": "Le Baguette is a group project where each group membere completed full CRUD (create, read, update and delete) on a collection. The user can also view the seating chart, some reporting, and add menu items to reservation to view a total bill.",
+    "technologiesUsed": "Firebase, vanilla JS, SCSS, Jquery",
+    "available": true,
+    "url": "https://sports-roster-e03bf.firebaseapp.com/",
+    "githubUrl": "https://github.com/kelseycreel/nutshell-michelin-restaurant"
   }
 }
