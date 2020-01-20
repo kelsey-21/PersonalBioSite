@@ -15,7 +15,7 @@
     "description": "Jurrassic World is a group project with full CRUD (create, read, update and delete) using firebase API and vanilla javascript. Each team member completed CRUD on a collection. Upon login, the user is able to interact with items in the Jurassic World Theme Park items - dinosaurs, vendors, rides, and staff. There is also a cron job that sets off a chaos monkey.",
     "technologiesUsed": "Firebase, vanilla JS, SCSS, Jquery, Cron",
     "available": true,
-    "url": "https://github.com/nss-evening-cohort-10/nutshell-jurassic-world/tree/lc-settingMonkeyTime",
+    "url": "https://jurassic-world-a9907.firebaseapp.com/#",
     "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-jurassic-world/tree/04a1de1bd3dcade715b27b2be8c2d01e3b75d115"
   },
   "project4": {
@@ -33,7 +33,7 @@
     "description": "Le Baguette is a group project where each group membere completed full CRUD (create, read, update and delete) on a collection. The user can also view the seating chart, some reporting, and add menu items to reservation to view a total bill.",
     "technologiesUsed": "Firebase, vanilla JS, SCSS, Jquery",
     "available": true,
-    "url": "https://sports-roster-e03bf.firebaseapp.com/",
+    "url": "https://labaguette-932fa.firebaseapp.com/#",
     "githubUrl": "https://github.com/kelseycreel/nutshell-michelin-restaurant"
   }
 }
