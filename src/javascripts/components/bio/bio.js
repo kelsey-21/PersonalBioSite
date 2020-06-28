@@ -3,7 +3,7 @@ import './bio.scss';
 
 const bioArray = [
   {
-    imageLink: './images/DSC_1132.jpg',
+    imageLink: './images/DSC_1132_square.jpg',
     title: 'Kelsey Creel',
     // eslint-disable-next-line max-len
     bioContent1: 'Project manager turned software developer. My experience has led to an exposure of a wide range of areas, including agile development, product design, client management, implementations and process improvement. Passionate about problem solving and innovative solutions.',
