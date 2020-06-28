@@ -1,28 +1,51 @@
-/* BIO */
-#card.mb-3 {
-  flex: 0 1 65%;
-  margin-left: 6em;
-  margin-right: 6em;
-  margin-top: 2em;
-  border-radius: 4px;
-  border: 2px solid #BDBDBD;
-  box-shadow: 0 4px 8px 0 #BDBDBD, 0 6px 20px 0 #BDBDBD;
-  min-width: 15em;
-  font-size: 1em;
-  padding: 1em;
+@import '../../../styles/colors';
+
+
+.bio-page-div {
+  flex-direction: row;
 }
 
-.bio-img {
-  max-width: 17em;
-  max-height: auto;
-  margin: 2em;
+.image {
+  height: auto;
+  width: 50%;
+  margin: 1%;
+  padding: 1%;
   text-align: center;
 }
 
-.card-body {
-  padding: 2%;
-  margin: 4% 6%;
+.bio {
+  padding: 2% !important;
+  margin: 2%;
+  background-color: $orange;
+  height: auto;
+  width: 50%;
+  align-items: middle;
+  color: white;
   p {
-    font-size: 0.75em;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.85rem;
+  }
+}
+
+.card-title {
+  text-align: center;
+  text-emphasis: bold;
+  text-transform: uppercase;
+  font-family: $bitter;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+  background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #FFD0AE 50%);
+}
+
+@media only screen and (max-width: 600px) {
+  #bioPage {
+    .bio-page-div {
+      flex-direction: column !important;
+    }
+    .bio, .bio-img, .image {
+      width: 100%;
+      height: auto;
+    }
   }
 }
