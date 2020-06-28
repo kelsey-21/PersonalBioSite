@@ -6,9 +6,7 @@ const bioArray = [
     imageLink: './images/DSC_1132.jpg',
     title: 'Kelsey Creel',
     // eslint-disable-next-line max-len
-    bioContent1: 'Before becoming a software developer, I was working in project management for a small healthcare technology company in Nashville. My curiosity for software development was sparked by conversations with coworkers and grew as more technical based projects came my way. During my time as a project manager, I often strategized best practices and processes with my team. I was also responsible for training new employees on these practices and processes.',
-    // eslint-disable-next-line max-len
-    bioContent2: 'As I came to better understand technology and how it could and should be used, I wanted be more involved on the creation side. My time at Nashville Software School has taught me to look at the problems technology raises differently. Project management follows a predictable pattern, but development is innovative and challenging. Finding the solution to the challenge in front of me is extremely fulfilling and I look forward to even more in the future.',
+    bioContent1: 'Project manager turned software developer. My experience has led to an exposure of a wide range of areas, including agile development, product design, client management, implementations and process improvement. Passionate about problem solving and innovative solutions.',
     bioContent3: '',
   },
 ];
@@ -26,7 +24,6 @@ const printBio = () => {
           <div class="card-body">
             <h2 class="card-title">${bioArray[i].title}</h2>
             <p class="card-text">${bioArray[i].bioContent1}</p>
-            <p class="card-text">${bioArray[i].bioContent2}</p>
           </div>
         </div>
       </div>
