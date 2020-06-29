@@ -2,33 +2,33 @@
 /* Technologies */
 .bioTech {
   margin: auto;
-  img {
-    max-width: 25px;
-    max-height: auto;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(50%);
-  }
+
   .single-technology {
-    margin: 2% 0;
+    margin: 2%;
+    // position: relative;
+    // text-align: center;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    img {
+      -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
+      filter: blur(4px);
+    }
   }
   .technology-text {
-    font-size: 0.5em;
+    font-size: 0.8em;
     margin: 0.2%;
     text-align: center;
-    color: black;
-  }
-}
-.bioTech-title-background {
-  color: $orange;
-  line-height: 3rem;
-  padding: 0 0 2% 0;
-  .bioTech-title {
-    font-weight: bold;
-    padding: 0 10% 0 0;
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    // background: white;
+    // color: black;
+    padding: 4px 10px;
   }
 }
 
 #technologiesPage {
-  background-color: $beige;
   padding: 2% 10%;
 }
