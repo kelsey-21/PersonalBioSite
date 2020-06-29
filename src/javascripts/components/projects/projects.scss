@@ -4,38 +4,23 @@ body {
   background-color: $white;
 }
 
-#projectsPage {
-  background-color: $lightgreen;
-}
-
-.single-project {
+.single-card {
   margin: 2%;
   padding: 2%;
-  background-color: $lightergreen !important;
+  .btn {
+    width: 100%;
+    height: auto;
+  }
   p {
     font-size: 0.6em;
   }
-  .card-title {
-    color: $orange;
+  .single-card-title {
+    color: $green;
     font-weight: bold;
+    font-size: 2em;
+    width: 50%;
   }
   .card-body {
     margin: 2%;
-  }
-}
-
-iframe {
-  width: 350px;
-  height: 350px;
-  overflow: hidden;
-}
-
-.project-title-background {
-  color: $orange;
-  line-height: 6rem;
-  padding: 0;
-  .project-title {
-    font-weight: bold;
-    padding: 0 10% 0 0;
   }
 }

@@ -1,0 +1,21 @@
+
+{
+  "capstone1": {
+    "title": "Beauty Mark",
+    "img1": "https://raw.githubusercontent.com/kelseycreel/PersonalBioSite/master/images/pinterest.png",
+    "description": "Do you know what's in your make up?",
+    "technologiesUsed": "React, JavaScript, SCSS, Firebase, Axios, Reactstrap",
+    "available": true,
+    "url": "https://beauty-mark-83f39.firebaseapp.com/",
+    "githubUrl": "https://github.com/kelseycreel/beauty-mark"
+  },
+  "capstone2": {
+    "title": "",
+    "img1": "",
+    "description": "",
+    "technologiesUsed": "",
+    "available": false,
+    "url": "",
+    "githubUrl": ""
+  }
+}

@@ -1,20 +1,14 @@
 const singleProjectCard = (project) => {
   const domString = `
-  <div class="card single-project border-0">
-  <div class="row no-gutters">
-    <div class="col-md-6">
-      <img src="${project.img1}" class="card-img" alt="..." />
-    </div>
-    <div class="col-md-6">
-      <div class="card-body">
-        <h5 class="card-title">${project.title}</h5>
-        <p class="card-text">${project.description}</p>
-        <a href="${project.url}" class="btn btn-outline"><i class="fas fa-globe"></i></a>
-        <a href="${project.githubUrl}" class="btn btn-outline"><i class="fab fa-github"></i></a>
-      </div>
+  <div class="single-card d-flex flex-row">
+      <a href="${project.url}" class="btn btn-outline" target="_blank">
+        <img src="${project.img1}" class="card-img" alt="..." />
+      </a>
+    <div class="single-card-title">
+        <h3 class="single-card-title">${project.title}</h3>
+          <p class="single-card-text">${project.description}</p>
     </div>
   </div>
-</div>
   `;
   return domString;
 };
