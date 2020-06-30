@@ -7,18 +7,21 @@ body {
 .single-card {
   margin: 2%;
   padding: 2%;
+  display: flex;
+  align-items: center;
   .btn {
     width: 100%;
     height: auto;
   }
   p {
     font-size: 0.6em;
+    font-family: $varela;
   }
   .single-card-title {
-    color: $green;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.5em;
     width: 50%;
+    font-family: $bitter;
   }
   .card-body {
     margin: 2%;
