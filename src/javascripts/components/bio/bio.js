@@ -15,7 +15,7 @@ const printBio = () => {
   let stringtoPrint = '';
   for (let i = 0; i < bioArray.length; i += 1) {
     stringtoPrint += `
-      <div class="d-flex bio-page-div">
+      <div class="d-flex justify-content-center bio-page-div">
         <div class="image">
         <img src="https://raw.githubusercontent.com/kelseycreel/PersonalBioSite/master/src/javascripts/helpers/assets/DSC_1132_square.jpg" class="card-img bio-img"/>
         </div>

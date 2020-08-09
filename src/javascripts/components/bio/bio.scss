@@ -7,25 +7,25 @@
 
 .image {
   height: auto;
-  width: 50%;
-  margin: 1%;
+  width: 35%;
+  // margin: 1%;
   padding: 1%;
   text-align: center;
 }
 
 .bio {
   padding: 2% !important;
-  margin: 2%;
+  margin: 1%;
   background-color: $orange;
   height: auto;
-  width: 50%;
+  width: 35%;
   align-items: middle;
   color: white;
   p {
     color: white;
     text-align: center;
     font-style: italic;
-    font-size: 0.85rem;
+    font-size: min(max(9px, 12px), 11px);
   }
 }
 
@@ -34,11 +34,19 @@
   text-emphasis: bold;
   text-transform: uppercase;
   font-family: $bitter;
+  margin: 0;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
   background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #FFD0AE 50%);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
+  .image, .bio {
+    width: 45%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 660px) {
   #bioPage {
     .bio-page-div {
       flex-direction: column !important;
