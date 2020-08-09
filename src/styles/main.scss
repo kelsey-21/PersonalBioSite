@@ -18,6 +18,24 @@ footer {
     i {
     color: $white;
     }
+    .social-icon {
+      margin: 2rem;
+      font-size: 2rem;
+      a {
+        padding: 1rem;
+      }
+    }
+    li {
+      list-style: none;
+    }
+    a {
+      color: $white;
+      text-decoration: none;
+      &:hover {
+        color: $white;
+      }
+    }
+
 }
 
 .hide {
